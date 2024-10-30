@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Measurement Add</title>
+  <link rel="stylesheet" href="css/css_form.css">
+  <style>
+
+
+  </style>
+</head>
+<body>
+
+
+
+<div class="demo-page" id="measurementForm">
+
+
+  <main class="demo-page-content">
+    <section>
+      <h1 class="package-name">Ajouter les mésures pour le client</h1>
+      <div class="nice-form-group">
+      <label for="date">Date:</label>
+      <input type="date" id="date" name="date" notrequired><br><br>
+
+
+
+        <label for="height_cm">Taille (cm) :</label>
+        <input type="text" id="height_cm" name="height_cm" step="0.01" notrequired><br><br>
+
+        <label for="weight_kg">Poids (kg) :</label>
+        <input type="text" id="weight_kg" name="weight_kg" step="0.01" notrequired><br><br>
+
+        <label for="neck_cm">Tour de cou (cm) :</label>
+        <input type="text" id="neck_cm" name="neck_cm" step="0.01" notrequired><br><br>
+
+        <label for="chest_cm">Tour de poitrine (cm) :</label>
+        <input type="text" id="chest_cm" name="chest_cm" step="0.01" notrequired><br><br>
+
+        <label for="arm_right_cm">Tour de bras droit (cm) :</label>
+        <input type="text" id="arm_right_cm" name="arm_right_cm" step="0.01" notrequired><br><br>
+
+        <label for="arm_left_cm">Tour de bras gauche (cm) :</label>
+        <input type="text" id="arm_left_cm" name="arm_left_cm" step="0.01" notrequired><br><br>
+
+        <label for="waist_cm">Tour de taille (cm) :</label>
+        <input type="text" id="waist_cm" name="waist_cm" step="0.01" notrequired><br><br>
+
+        <label for="hip_cm">Tour de hanches (cm) :</label>
+        <input type="text" id="hip_cm" name="hip_cm" step="0.01" notrequired><br><br>
+
+        <label for="thigh_right_cm">Tour de cuisse droite (cm) :</label>
+        <input type="text" id="thigh_right_cm" name="thigh_right_cm" step="0.01" notrequired><br><br>
+
+        <label for="thigh_left_cm">Tour de cuisse gauche (cm) :</label>
+        <input type="text" id="thigh_left_cm" name="thigh_left_cm" step="0.01" notrequired><br><br>
+
+      </div>
+    <button type="button" onclick="saveMeasurement()">Save Measurements</button>
+    <button type="button" onclick="window.history.back()">Cancel</button>
+
+      </section>
+  </main>
+</div>
+
+<script src="js/add_measurements_form.js"></script>
+
+</body>
+</html>

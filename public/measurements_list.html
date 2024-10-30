@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Measurements List</title>
+  <link rel="stylesheet" href="css/style_list.css">
+  <style>
+
+    .top-left-button {
+      left: 0;
+    }
+
+    .top-right-button {
+      right: 0;
+    }
+
+  </style>
+</head>
+<body>
+
+
+<button class="top-left-button" onclick="window.location.href='client_list.html'">Back to Clients</button>
+
+<button class="top-right-button" onclick="addMeasurement()">Add measurement</button>
+
+<div class="container">
+  <h1 class="mt-4" style="text-align: center;">Mésures du Client</h1>
+
+  <table id="measurementsTable" class="table table-striped mt-3">
+    <thead>
+    <tr>
+      <th>Date</th>
+      <th>Taille</th>
+      <th>Poids</th>
+      <th>Cou</th>
+      <th>Poitrine</th>
+      <th>Bras D</th>
+      <th>Bras G</th>
+      <th>Taille</th>
+      <th>Hanches</th>
+      <th>Cuisse D</th>
+      <th>Cuisse G</th>
+
+    </tr>
+    </thead>
+    <tbody>
+    <!-- Measurement rows will be populated dynamically here -->
+    </tbody>
+  </table>
+
+
+</div>
+
+<script src="./js/measurements_list.js"></script>
+
+</body>
+</html>
+
